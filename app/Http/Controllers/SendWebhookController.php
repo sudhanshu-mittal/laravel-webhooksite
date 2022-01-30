@@ -14,8 +14,8 @@ class SendWebhookController extends Controller
             'status' => 'success',
             'message' => 'webhook send successfully',
             'extra_data' => [
-                'first_name' => 'Harsukh',
-                'last_name' => 'Makwana',
+                'first_name' => 'Harsh',
+                'last_name' => 'Mariana',
             ],
         ];
         $json_array = json_encode($data);
